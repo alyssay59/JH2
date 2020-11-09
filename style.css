@@ -1,0 +1,16 @@
+.linktable{
+    
+    text-align: center;
+}
+a:link, a:visited, .pop-upbox{
+    background-color: CadetBlue;
+    color: white;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Georgia;
+    padding: 15px 25px;
+}
+a:hover, a:active, .pop-upbox {
+    background-color: CadetBlue;
+}
