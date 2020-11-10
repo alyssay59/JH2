@@ -1,6 +1,26 @@
-.linktable{
-    
+th{
     text-align: center;
+    color: cadetblue;
+    font-family: georgia;
+    height: 38px
+}
+.linktable{
+    width: 500px;
+    height: 100px;
+    margin-top: 450px;
+    
+}
+.hy{
+    columns: 2;
+}
+body{
+    background-color:LightGoldenRodYellow
+}
+.logo{
+    color: navy;
+    font-size: 50px;
+    font-family: Times;
+    font-style: italic;
 }
 a:link, a:visited, .pop-upbox{
     background-color: CadetBlue;
