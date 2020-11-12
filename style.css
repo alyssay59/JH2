@@ -1,20 +1,10 @@
-th{
-    text-align: center;
-    color: cadetblue;
-    font-family: georgia;
-    height: 38px
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
 }
-.linktable{
-    width: 500px;
-    height: 100px;
-    margin-top: 450px;
-    
-}
-.hy{
-    columns: 2;
-}
-body{
-    background-color:LightGoldenRodYellow
+li{
+    display:inline-block;
 }
 .logo{
     color: navy;
@@ -22,7 +12,7 @@ body{
     font-family: Times;
     font-style: italic;
 }
-a:link, a:visited, .pop-upbox{
+.pop-upbox:link, .pop-upbox:visited {
     background-color: CadetBlue;
     color: white;
     text-align:center;
@@ -30,7 +20,20 @@ a:link, a:visited, .pop-upbox{
     display: inline-block;
     font-family: Georgia;
     padding: 15px 25px;
+    -webkit-transition: background 1s;
+    transition: background 1s;
 }
-a:hover, a:active, .pop-upbox {
+.pop-upbox:hover, .pop-upbox:active {
     background-color: CadetBlue;
+    background: powderblue;
 }
+
+.center {
+    text-align: center;
+}
+.navcolor{
+    background-color:red;
+}
+
+    
+
