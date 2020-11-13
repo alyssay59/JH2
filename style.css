@@ -1,10 +1,21 @@
-ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
+.navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-li{
-    display:inline-block;
+.navbar{
+    background-color:darkgrey;
+}
+.navbar a{
+    color:black;
+}
+.page-header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center; 
+}
+.jumbotron{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37) 0%,rgba(0,0,0,0.37) 100%), url(https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAL%2FyRauAAABEgAQAEdJVl96wEVDltDCK7uNTZg%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMmI4M2ZkMGZkOGI4NDM4YmI4OWQyYjdjNTQ3NzFiZDIiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCIsXCJwdWlkXCI6XCIxMTUzNzY1OTMyMjkwNzQ4MTI4XCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNjA1Mjc3NDgxLCJleHAiOjE2MDUyNzgwODEsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.uG931eTxrdYzOOyBdmcrnfvMa5v8LGmFHQIdyQ1NOHIMKQo1wwlweJL6_7HazWnFfjT11-gIDvakgRT4ABnARQFpPDghn7dhbThQZ7fJeOdNjnh-VNS4FxtFeQRk1k8XvFrdJ-nPiu4x9IaGlp2X3OJ2AUBRYQpUNz-Mj7yd0_V8tLC7GAKheIMYNGE9Hzk81fkiG16ygGZudlhLNNAFdTWkfOBGfwhmTRkJnQAR7AwWp60WxDRZARtMr8n1JrfKCWMFW6TeLOUBBsO-NnywLZnbwiDtDMTatBpMJXkO8i6XES6x8ITtJTE5ASIoAlTPHzRa6PlhynPl_4BnYTuv7g&X-OWA-CANARY=URrA8BKs3Ea2vMVSy6UCOnDHZBTgh9gYZUU_iCGxtQpF-5BPIdJ5qtpKxw4gzHn-162mGZOfnPo.&owa=outlook.office.com&scriptVer=20201109002.05&animation=true);
+    background-size: cover;
+    height:452px;
+    color:white
 }
 .logo{
     color: navy;
@@ -34,6 +45,8 @@ li{
 .navcolor{
     background-color:red;
 }
-
+body{
+    background-color:blanchedalmond
+}
     
 
