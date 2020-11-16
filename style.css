@@ -2,7 +2,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navbar{
-    background-color:darkgrey;
+    background-color:rgba(184, 179, 169, 0.445);
 }
 .navbar a{
     color:black;
@@ -38,7 +38,21 @@
     background-color: CadetBlue;
     background: powderblue;
 }
-
+.carousel-item{
+    height:350px;
+}
+.carousel-item h3{
+    color:white
+}
+.carousel-item p{
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.carousel-caption p{
+    color:aqua;
+     ;
+}
 .center {
     text-align: center;
 }
@@ -46,7 +60,18 @@
     background-color:red;
 }
 body{
-    background-color:blanchedalmond
-}
-    
+    background-color:white
 
+}
+.navbar-expand-lg{
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: cadetblue;
+}
+.btn a{
+    color:white
+}
+.row{
+    margin-bottom: 10px;
+}
