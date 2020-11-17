@@ -2,10 +2,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navbar{
-    background-color:rgba(184, 179, 169, 0.445);
+    background-color:#483c32ee;
 }
 .navbar a{
-    color:black;
+    color:white;
 }
 .page-header{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,7 +23,7 @@
     font-family: Times;
     font-style: italic;
 }
-.pop-upbox:link, .pop-upbox:visited {
+.btn-primary:link, .btn-primary:visited {
     background-color: CadetBlue;
     color: white;
     text-align:center;
@@ -34,7 +34,7 @@
     -webkit-transition: background 1s;
     transition: background 1s;
 }
-.pop-upbox:hover, .pop-upbox:active {
+.btn-primary:hover, .btn-primary:active {
     background-color: CadetBlue;
     background: powderblue;
 }
@@ -48,10 +48,6 @@
     color:black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
-}
-.carousel-caption p{
-    color:aqua;
-     ;
 }
 .center {
     text-align: center;
@@ -67,11 +63,23 @@ body{
     margin-bottom: 20px;
 }
 .btn{
-    background-color: cadetblue;
+    background-color: rgb(154, 206, 207);
+    border: 2px solid  rgb(154, 206, 207);
+    margin-top: 10px;
 }
 .btn a{
     color:white
 }
+.btn:hover{
+    background-color:#306754;
+    border: 2px solid #306754
+}
 .row{
     margin-bottom: 10px;
+}
+.col-sm-2 {
+    background-color:#c47451a4
+}
+.dropdown-menu a{
+    color:black
 }
