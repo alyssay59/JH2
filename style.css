@@ -83,3 +83,18 @@ body{
 .dropdown-menu a{
     color:black
 }
+.col-md-2 {
+    background-color:#c47451a4;
+}
+.card-title{
+    text-align: center;
+}
+.card-block{
+    Height: 400px;
+}
+.btn{
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    margin-left: 25%;
+}
