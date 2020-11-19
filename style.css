@@ -65,10 +65,13 @@ body{
 .btn{
     background-color: rgb(154, 206, 207);
     border: 2px solid  rgb(154, 206, 207);
-    margin-top: 10px;
+    margin-top: 30px;
+    transform: translateX(-50%)
+    left:50%;
 }
 .btn a{
-    color:white
+    color:white;
+
 }
 .btn:hover{
     background-color:#306754;
@@ -97,4 +100,54 @@ body{
     display:flex;
     justify-content: center;
     margin-left: 25%;
+}
+.bottom-center{
+    bottom:20px;
+    left:50%;
+}
+.blockquote-footer{
+    color:rgb(148, 148, 148);
+}
+.blockquote-footer a{
+    color:rgb(148, 148, 148);
+}
+.blockquote{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+.home-button{
+    margin-left:20px;
+}
+.jumbotron p{
+    margin-right:65%;
+    text-align:center;
+}
+.jumbotron h2{
+    text-align:center;
+    margin-right:65%;
+}
+.media img{
+    width:300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.order-placement{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.order-placement .btn{
+    text-align:center;
+    margin-left:5px;
+}
+.media p{
+    color:rgb(148, 148, 148);
+}
+form{
+    margin-left:10px;
+    height:200px;
+}
+.explain{
+    margin-right:25%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
