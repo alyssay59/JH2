@@ -56,7 +56,7 @@
     background-color:red;
 }
 body{
-    background-color:white
+    background-color:ivory
 
 }
 .navbar-expand-lg{
@@ -150,4 +150,32 @@ form{
 .explain{
     margin-right:25%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col-md-5{
+    background-color:#c47451a4 ;
+}
+.col-md-7 .how-to{
+    background-color:#c474516b;
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr;
+    grid-template-rows: 1.2fr;
+    gap:5px 5px;
+}
+form{
+    text-align:center;
+}
+.comment{
+    height:150px;
+}
+.how-to h4{
+    margin-left:30px;
+}
+.media-body{
+    text-align: center;
+    margin-top:15%;
+}
+.cups-title{
+    text-align:center;
 }
