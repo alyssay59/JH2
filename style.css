@@ -177,5 +177,25 @@ form{
     margin-top:15%;
 }
 .cups-title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.4in;
+}
+.blockquote{
+    background-color:#ffbb99;
     text-align:center;
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+.center img{
+    width: 80%;
+}
+.media p{
+    margin-top:150px;
+}
+.media h3{
+    margin-top:50px;
 }
