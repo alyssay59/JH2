@@ -193,9 +193,7 @@ form{
 .center img{
     width: 80%;
 }
-.media p{
-    margin-top:150px;
-}
-.media h3{
-    margin-top:50px;
+.media .carousel{
+    width:3.2in;
+    height:3in;
 }
