@@ -1,32 +1,39 @@
-.navbar-brand{
+.navbar-brand {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.navbar{
-    background-color:#483c32ee;
+
+.navbar {
+    background-color: #483c32ee;
 }
-.navbar a{
-    color:white;
+
+.navbar a {
+    color: white;
 }
-.page-header{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center; 
+
+.page-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
-.jumbotron{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37) 0%,rgba(0,0,0,0.37) 100%), url(https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAL%2FyRauAAABEgAQAEdJVl96wEVDltDCK7uNTZg%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMmI4M2ZkMGZkOGI4NDM4YmI4OWQyYjdjNTQ3NzFiZDIiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCIsXCJwdWlkXCI6XCIxMTUzNzY1OTMyMjkwNzQ4MTI4XCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNjA1Mjc3NDgxLCJleHAiOjE2MDUyNzgwODEsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.uG931eTxrdYzOOyBdmcrnfvMa5v8LGmFHQIdyQ1NOHIMKQo1wwlweJL6_7HazWnFfjT11-gIDvakgRT4ABnARQFpPDghn7dhbThQZ7fJeOdNjnh-VNS4FxtFeQRk1k8XvFrdJ-nPiu4x9IaGlp2X3OJ2AUBRYQpUNz-Mj7yd0_V8tLC7GAKheIMYNGE9Hzk81fkiG16ygGZudlhLNNAFdTWkfOBGfwhmTRkJnQAR7AwWp60WxDRZARtMr8n1JrfKCWMFW6TeLOUBBsO-NnywLZnbwiDtDMTatBpMJXkO8i6XES6x8ITtJTE5ASIoAlTPHzRa6PlhynPl_4BnYTuv7g&X-OWA-CANARY=URrA8BKs3Ea2vMVSy6UCOnDHZBTgh9gYZUU_iCGxtQpF-5BPIdJ5qtpKxw4gzHn-162mGZOfnPo.&owa=outlook.office.com&scriptVer=20201109002.05&animation=true);
+
+.jumbotron {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37) 0%, rgba(0, 0, 0, 0.37) 100%), url(./img/home.jpg);
     background-size: cover;
-    height:452px;
-    color:white
+    height: 452px;
+    color: white
 }
-.logo{
+
+.logo {
     color: navy;
     font-size: 50px;
     font-family: Times;
     font-style: italic;
 }
-.btn-primary:link, .btn-primary:visited {
+
+.btn-primary:link,
+.btn-primary:visited {
     background-color: CadetBlue;
     color: white;
-    text-align:center;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: Georgia;
@@ -34,169 +41,226 @@
     -webkit-transition: background 1s;
     transition: background 1s;
 }
-.btn-primary:hover, .btn-primary:active {
+
+.btn-primary:hover,
+.btn-primary:active {
     background-color: CadetBlue;
     background: powderblue;
 }
-.carousel-item{
-    height:350px;
+
+.carousel-item {
+    height: 350px;
 }
-.carousel-item h3{
-    color:white
+
+.carousel-item h3 {
+    color: white
 }
-.carousel-item p{
-    color:black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.carousel-item p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
 }
+
 .center {
     text-align: center;
 }
-.navcolor{
-    background-color:red;
-}
-body{
-    background-color:ivory
 
+.navcolor {
+    background-color: red;
 }
-.navbar-expand-lg{
+
+body {
+    background-color: ivory
+}
+
+.navbar-expand-lg {
     margin-bottom: 20px;
 }
-.btn{
-    background-color: rgb(154, 206, 207);
-    border: 2px solid  rgb(154, 206, 207);
-    margin-top: 30px;
-    transform: translateX(-50%)
-    left:50%;
-}
-.btn a{
-    color:white;
 
+.btn {
+    background-color:rgb(243, 231, 231);
+    border: 2px solid rgb(243, 231, 231);
+    margin-top: 30px;
+    transform: translateX(-50%) left:50%;
 }
-.btn:hover{
-    background-color:#306754;
-    border: 2px solid #306754
+
+.btn a {
+    color: black;
 }
-.row{
+
+.btn:hover {
+    background-color: #7aa3a3;
+    border: 2px solid#7aa3a3;
+}
+
+.row {
     margin-bottom: 10px;
 }
+
 .col-sm-2 {
-    background-color:#c47451a4
+    background-color: #c47451a4
 }
-.dropdown-menu a{
-    color:black
+
+.dropdown-menu a {
+    color: black
 }
+
 .col-md-2 {
-    background-color:#c47451a4;
+    background-color: #c47451a4;
 }
-.card-title{
+
+.card-title {
     text-align: center;
 }
-.card-block{
+
+.card-block {
     Height: 400px;
 }
-.btn{
-    text-align:center;
-    display:flex;
+
+.btn {
+    text-align: center;
+    display: flex;
     justify-content: center;
     margin-left: 25%;
 }
-.bottom-center{
-    bottom:20px;
-    left:50%;
+
+.bottom-center {
+    bottom: 20px;
+    left: 50%;
 }
-.blockquote-footer{
-    color:rgb(148, 148, 148);
+
+.blockquote-footer {
+    color: rgb(148, 148, 148);
 }
-.blockquote-footer a{
-    color:rgb(148, 148, 148);
+
+.blockquote-footer a {
+    color: rgb(148, 148, 148);
 }
-.blockquote{
+
+.blockquote {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 30px;
 }
-.home-button{
-    margin-left:20px;
+
+.home-button {
+    margin-left: 20px;
 }
-.jumbotron p{
-    margin-right:65%;
-    text-align:center;
+
+.jumbotron p {
+    margin-right: 65%;
+    text-align: center;
 }
-.jumbotron h2{
-    text-align:center;
-    margin-right:65%;
+
+.jumbotron h2 {
+    text-align: center;
+    margin-right: 65%;
 }
-.media img{
-    width:300px;
+
+.media img {
+    width: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.order-placement{
-    text-align:center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.order-placement {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.order-placement .btn{
-    text-align:center;
-    margin-left:5px;
+
+.order-placement .btn {
+    text-align: center;
+    margin-left: 5px;
 }
-.media p{
-    color:rgb(148, 148, 148);
+
+.media p {
+    color: rgb(148, 148, 148);
 }
-form{
-    margin-left:10px;
-    height:200px;
+
+form {
+    margin-left: 10px;
+    height: 200px;
 }
-.explain{
-    margin-right:25%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.explain {
+    margin-right: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.col-md-5{
-    background-color:#c47451a4 ;
+
+.col-md-5 {
+    background-color: #c47451a4;
 }
-.col-md-7 .how-to{
-    background-color:#c474516b;
+
+.col-md-7 .how-to {
+    background-color: #c474516b;
 }
+
 .grid-container {
-    display:grid;
+    display: grid;
     grid-template-columns: 1.3fr 1.3fr 1.3fr;
     grid-template-rows: 1.2fr;
-    gap:5px 5px;
+    gap: 5px 5px;
 }
-form{
-    text-align:center;
-}
-.comment{
-    height:150px;
-}
-.how-to h4{
-    margin-left:30px;
-}
-.media-body{
+
+form {
     text-align: center;
-    margin-top:15%;
 }
-.cups-title{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.comment {
+    height: 150px;
+}
+
+.how-to h4 {
+    margin-left: 30px;
+}
+
+.media-body {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.cups-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.4in;
 }
-.blockquote{
-    background-color:#ffbb99;
-    text-align:center;
+
+.blockquote {
+    background-color: #ffbb99;
+    text-align: center;
 }
-.center{
-    display:block;
+
+.center {
+    display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     width: 50%;
 }
-.center img{
+
+.center img {
     width: 80%;
 }
-.media .carousel{
-    width:3.2in;
-    height:3in;
+
+.media .carousel {
+    width: 3.2in;
+    height: 3in;
 }
-.head{
-    background-color: antiquewhite;
+
+.head {
+    background-color: rgb(194, 192, 190);
+}
+
+.other img {
+    margin-top: 130px;
+}
+
+.other {
+    height: 4in;
+}
+
+.whitecolumn .col-md-2 {
+    background-color: white;
+}
+.page-header{
+    background-color: rgb(194, 192, 190)
 }

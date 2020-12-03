@@ -1,232 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Other  Items</title>
+    <title>Other Items</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg">
-                     
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
                         <span class="navbar-toggler-icon"></span>
                     </button> <a class="navbar-brand" href="index.html">JH2</a>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="navbar-nav ml-md-auto">
                             <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Menu</a>
+                                <a class="nav-link dropdown-toggle" href="http://example.com"
+                                    id="navbarDropdownMenuLink" data-toggle="dropdown">Menu</a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                     <a class="dropdown-item" href="apparel.html">Apparel</a> <a class="dropdown-item" href="cups.html">Cups</a> <a class="dropdown-item" href="trendingnow.html">Trending Now</a><a class="dropdown-item" href="other.html">Other Items</a>
+                                    <a class="dropdown-item" href="apparel.html">Apparel</a> <a class="dropdown-item"
+                                        href="cups.html">Cups</a> <a class="dropdown-item"
+                                        href="trendingnow.html">Trending Now</a><a class="dropdown-item"
+                                        href="other.html">Other Items</a>
                                     <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="about.html">About Us</a><a class="dropdown-item" href="contact.html">Contact Us</a>
+                                    </div> <a class="dropdown-item" href="about.html">About Us</a><a
+                                        class="dropdown-item" href="contact.html">Contact Us</a>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                </nav> 
-                <div class="row">
-                    <div class="col-md-2">
-                        <h2 class="order-placement">
-                            Placing an order?
-                        </h2>
-                        <p class="order-placement">
-                           Click the button below to take you to the form on the home page. Fill it out and we'll get right with you!
-                        </p>
-                        <p class="order-placement">
-                            <a class="btn" href="index.html">Order</a>
-                        </p>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAME%2BwEiAAABEgAQAGmp3UO6TwFDt37UJRZjxv0%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiNDI5NTllYTczMTQ5NDI1ZTkyNDFiMTJiMmQ2ZjkxZDQiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCIsXCJwdWlkXCI6XCIxMTUzNzY1OTMyMjkwNzQ4MTI4XCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNjA1Nzk0OTk0LCJleHAiOjE2MDU3OTU1OTQsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.ezF8O7xYMbEUwcra8HeYaSL34iISbLn2ARuYPVD2_0tu3ePySHF8sRZVLz30e_brB1U9BmE53hn31NBNskDeNAYEBQoUz7G4Hx93YITCGqirOpgUiQSWkUzZaDJHPPR-SU50AGqZOS47CNSPrdpmI4SvBbVl5RJQ8z27dKbysENQ6OpwrnPAOa8RQxi1fERXYr7eLMz8nB_0IRy4T-96zmL3sjoAUdsEVxuioA4wvSLdqeMQykDBH5SneR3tf_OyhdmRJl2f3_QBeTSZJrb3q4Q7hRF10l1IQVWk3arooulrNjsvkK2MS8SbOmriq6injPPhQwuqk7Ro3RvSmL0pdg&X-OWA-CANARY=K1SqObJaM023ZMOpK0DM5oCzPs6UjNgYpz78DmUK0M1uJcY3_ivrNKEZ6dlMJ2WDoAGNHrgx1rk.&owa=outlook.office.com&scriptVer=20201109002.11&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                   University of Kentucky blanket
-                                </h5>$25.00
+                </nav>
+                <div class="container-fluid">
+                    <div class="whitecolumn">
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="page-header">
+                                    <div class="head">
+                                        <h3 class="cups-title">
+                                            Other Items - Custom or Predesigned!
+                                        </h3>
+                                        <hr>*All items on this page are customizable. Just let us know the
+                                        color,size,your initials,team, and/or the type of product you would like!*
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
                             </div>
                         </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAME%2BwEjAAABEgAQALtzzo1OCe9HkYIOixB%2B3mA%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiNDI5NTllYTczMTQ5NDI1ZTkyNDFiMTJiMmQ2ZjkxZDQiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCIsXCJwdWlkXCI6XCIxMTUzNzY1OTMyMjkwNzQ4MTI4XCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNjA1Nzk0OTk0LCJleHAiOjE2MDU3OTU1OTQsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.ezF8O7xYMbEUwcra8HeYaSL34iISbLn2ARuYPVD2_0tu3ePySHF8sRZVLz30e_brB1U9BmE53hn31NBNskDeNAYEBQoUz7G4Hx93YITCGqirOpgUiQSWkUzZaDJHPPR-SU50AGqZOS47CNSPrdpmI4SvBbVl5RJQ8z27dKbysENQ6OpwrnPAOa8RQxi1fERXYr7eLMz8nB_0IRy4T-96zmL3sjoAUdsEVxuioA4wvSLdqeMQykDBH5SneR3tf_OyhdmRJl2f3_QBeTSZJrb3q4Q7hRF10l1IQVWk3arooulrNjsvkK2MS8SbOmriq6injPPhQwuqk7Ro3RvSmL0pdg&X-OWA-CANARY=ycBueXeZ90CrR3aAbyHh2tBgUxGVjNgY_-yE0HjcEBh70ZSF8RjOORDaXBPS-AmzO1Cyl5Sv-Z0.&owa=outlook.office.com&scriptVer=20201109002.11&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Louisiana State University blanket
-                                </h5>$25.00 
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAME%2BwEqAAABEgAQAGlhk9LAqAhNvh9X8dk9%2Fz0%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiOTVhNzQyZTkzYWQxNDJjMDkzZjczYWRmOWE3ODg5MDkiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCIsXCJwdWlkXCI6XCIxMTUzNzY1OTMyMjkwNzQ4MTI4XCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNjA1ODgwMTc3LCJleHAiOjE2MDU4ODA3NzcsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.eetyZ8VIn8Drb0okkymtLls2U_TEjNz0F6i223qSaWhUEmqh06zGqIHsa4Jz2bZsRNHFgCLGRHaIcS47SUwMC_s29oWxRVdBaYukUC6CQSpSpzALfbxmuTEytqLmNM-nK3rP_OT5dpDKBvaZf8OjkoBSvghspGlLXGaxxMoYMDxrgR7PA60PvGUeVNEK6pd15tA_xH4eV5pFg8sdZNvA4D5OwfRP-0VfO05sRmwBXuNsWN2dDHJXfNo86IiPShPf5ueb1zqoEJo9vhtiFJebwkCxnbtY71hCAQOaDKHz0f3spJs9LCTXV-CdedtQqFyb7BC-W0mO3BWtlUsFMHiUog&X-OWA-CANARY=wBxFnMuwoUyL75n47wDaBWCt8m9bjdgYjvb5zGtyUgjaPcyPI5KK752G4HLSXLn6LvSdUhVZfSA.&owa=outlook.office.com&scriptVer=20201109002.11&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Car Coasters
-                                </h5>$6.00
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCIAAABEgAQAPbXXMTa5R9OsO1RBC3%2BwyU%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMwNzI0LCJleHAiOjE2MDY4MzEzMjQsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.tubOBFsTxTdNGNFFNYtHE28VqSmEyA5rc07ow0oIiOZul7uCUHg10lMfT_N7MwbAH1GESWcN2jYe-l2bHnzS9gvIdLSSBJ2IBDYZ636N-zT96QbGAh3GlCcafUUx5tfdmnwVkFnMQyK4MxtxAnnAgIzYFeRKeBmK0r2VEPWgM_0aXk_RbvSnsnWhcDHmh-CdsbmqjfsIlqiUXaT2gH06NM154phKOiaibxa2xA3n5arMzz6GZ9xfd4He6F2XeAthHbY9fOE9H0fjnJd2j0PcEv6v8jXvXqFonl6FIQPNfGnyWauVC0lhRivnE4AVO9CnVCe-i2xS0osn9GzbLOyByQ&X-OWA-CANARY=tMv5eDmm7UiA5OdyuE1hZMDxTXYAltgYHL5hPWZ71u11-q9MvPkJnoe3kuDXD3fGZLNZe5FRBQU.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Luggage Tag
-                                </h5>$6.00
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCIAAABEgAQAGiWh6LyAqpLgppo%2BMTegmk%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMwNzI0LCJleHAiOjE2MDY4MzEzMjQsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.tubOBFsTxTdNGNFFNYtHE28VqSmEyA5rc07ow0oIiOZul7uCUHg10lMfT_N7MwbAH1GESWcN2jYe-l2bHnzS9gvIdLSSBJ2IBDYZ636N-zT96QbGAh3GlCcafUUx5tfdmnwVkFnMQyK4MxtxAnnAgIzYFeRKeBmK0r2VEPWgM_0aXk_RbvSnsnWhcDHmh-CdsbmqjfsIlqiUXaT2gH06NM154phKOiaibxa2xA3n5arMzz6GZ9xfd4He6F2XeAthHbY9fOE9H0fjnJd2j0PcEv6v8jXvXqFonl6FIQPNfGnyWauVC0lhRivnE4AVO9CnVCe-i2xS0osn9GzbLOyByQ&X-OWA-CANARY=tMv5eDmm7UiA5OdyuE1hZMDxTXYAltgYHL5hPWZ71u11-q9MvPkJnoe3kuDXD3fGZLNZe5FRBQU.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Car Monogram
-                                </h5>Price differs by size (small=$6.00 medium=$10.00 large=$15.00)
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCIAAABEgAQAJs6g4n1UrRKqV%2FexDLzXKA%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMwNzI0LCJleHAiOjE2MDY4MzEzMjQsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.tubOBFsTxTdNGNFFNYtHE28VqSmEyA5rc07ow0oIiOZul7uCUHg10lMfT_N7MwbAH1GESWcN2jYe-l2bHnzS9gvIdLSSBJ2IBDYZ636N-zT96QbGAh3GlCcafUUx5tfdmnwVkFnMQyK4MxtxAnnAgIzYFeRKeBmK0r2VEPWgM_0aXk_RbvSnsnWhcDHmh-CdsbmqjfsIlqiUXaT2gH06NM154phKOiaibxa2xA3n5arMzz6GZ9xfd4He6F2XeAthHbY9fOE9H0fjnJd2j0PcEv6v8jXvXqFonl6FIQPNfGnyWauVC0lhRivnE4AVO9CnVCe-i2xS0osn9GzbLOyByQ&X-OWA-CANARY=tMv5eDmm7UiA5OdyuE1hZMDxTXYAltgYHL5hPWZ71u11-q9MvPkJnoe3kuDXD3fGZLNZe5FRBQU.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Monogramed earrings
-                                </h5>$5.00
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCIAAABEgAQAFpVvR8VPZJOht0qaJsZcKs%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMwNzI0LCJleHAiOjE2MDY4MzEzMjQsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.tubOBFsTxTdNGNFFNYtHE28VqSmEyA5rc07ow0oIiOZul7uCUHg10lMfT_N7MwbAH1GESWcN2jYe-l2bHnzS9gvIdLSSBJ2IBDYZ636N-zT96QbGAh3GlCcafUUx5tfdmnwVkFnMQyK4MxtxAnnAgIzYFeRKeBmK0r2VEPWgM_0aXk_RbvSnsnWhcDHmh-CdsbmqjfsIlqiUXaT2gH06NM154phKOiaibxa2xA3n5arMzz6GZ9xfd4He6F2XeAthHbY9fOE9H0fjnJd2j0PcEv6v8jXvXqFonl6FIQPNfGnyWauVC0lhRivnE4AVO9CnVCe-i2xS0osn9GzbLOyByQ&X-OWA-CANARY=tMv5eDmm7UiA5OdyuE1hZMDxTXYAltgYHL5hPWZ71u11-q9MvPkJnoe3kuDXD3fGZLNZe5FRBQU.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Bride/Bridesmaides Hangers
-                                </h5>$10.00 per hanger
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCIAAABEgAQANLLgSibvSlKnHWtpICHu5U%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMwNzI0LCJleHAiOjE2MDY4MzEzMjQsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.tubOBFsTxTdNGNFFNYtHE28VqSmEyA5rc07ow0oIiOZul7uCUHg10lMfT_N7MwbAH1GESWcN2jYe-l2bHnzS9gvIdLSSBJ2IBDYZ636N-zT96QbGAh3GlCcafUUx5tfdmnwVkFnMQyK4MxtxAnnAgIzYFeRKeBmK0r2VEPWgM_0aXk_RbvSnsnWhcDHmh-CdsbmqjfsIlqiUXaT2gH06NM154phKOiaibxa2xA3n5arMzz6GZ9xfd4He6F2XeAthHbY9fOE9H0fjnJd2j0PcEv6v8jXvXqFonl6FIQPNfGnyWauVC0lhRivnE4AVO9CnVCe-i2xS0osn9GzbLOyByQ&X-OWA-CANARY=tMv5eDmm7UiA5OdyuE1hZMDxTXYAltgYHL5hPWZ71u11-q9MvPkJnoe3kuDXD3fGZLNZe5FRBQU.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Simple Monogram 
-                                </h5>Price depends on size (small=$6.00 medium=$10.00 large=$15.00)
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCJAAABEgAQAK6CqObPiydCrTS0dJn1A9w%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMxOTI3LCJleHAiOjE2MDY4MzI1MjcsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.g9Dn0pXfI2YG-VBTrZSKp2UMFSVnzOHCBs6hG8vCmgUsFkwZ0jPc7z08ds0nK-3_kvakdioOo_jo6yZNx8w8tMoypALT_u4BEeJ0JbO77BeuOSJ2upjpDWaC_lJC3FqJvctGx_rUPpsA6kgdHxU99dY_qTKY_4K6wrli2xZ88Fe4IEzy7Up5XPqB4rgKkLCAwQDGQ5m6oOPrNoo7QmbdwhckA7pLdAFHzZj4JuTMi3Tbt0CJ_HHIbEObIPN0youfQDiHRhVKqTthF0J1fZiJQWW1R3r7_DuYrNZJpGJDKx7wNDrmvJbpDI6C2td45hdUnyPqmufVayVM--9QPtZhrg&X-OWA-CANARY=6K144bfTZEq3nLClkUbKvVAMNI0DltgY5NSJiYnMt13XvdUWkP6yiI94rq-42cWbAqAbu44-jLY.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Monogram/Chevron American Flag 
-                                </h5>Price depends on size (small=$6.00 medium=$10.00 large=$15.00)
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCJAAABEgAQAGXYOW7vIDRJop27Qr9vxMg%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMxOTI3LCJleHAiOjE2MDY4MzI1MjcsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.g9Dn0pXfI2YG-VBTrZSKp2UMFSVnzOHCBs6hG8vCmgUsFkwZ0jPc7z08ds0nK-3_kvakdioOo_jo6yZNx8w8tMoypALT_u4BEeJ0JbO77BeuOSJ2upjpDWaC_lJC3FqJvctGx_rUPpsA6kgdHxU99dY_qTKY_4K6wrli2xZ88Fe4IEzy7Up5XPqB4rgKkLCAwQDGQ5m6oOPrNoo7QmbdwhckA7pLdAFHzZj4JuTMi3Tbt0CJ_HHIbEObIPN0youfQDiHRhVKqTthF0J1fZiJQWW1R3r7_DuYrNZJpGJDKx7wNDrmvJbpDI6C2td45hdUnyPqmufVayVM--9QPtZhrg&X-OWA-CANARY=6K144bfTZEq3nLClkUbKvVAMNI0DltgY5NSJiYnMt13XvdUWkP6yiI94rq-42cWbAqAbu44-jLY.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                    Menu Vinyl (Only vinyl; Chalkboard not included)
-                                </h5>$15.00
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCJAAABEgAQANWOTyI80w9Cr%2BsgzOS9VUA%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMxOTI3LCJleHAiOjE2MDY4MzI1MjcsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.g9Dn0pXfI2YG-VBTrZSKp2UMFSVnzOHCBs6hG8vCmgUsFkwZ0jPc7z08ds0nK-3_kvakdioOo_jo6yZNx8w8tMoypALT_u4BEeJ0JbO77BeuOSJ2upjpDWaC_lJC3FqJvctGx_rUPpsA6kgdHxU99dY_qTKY_4K6wrli2xZ88Fe4IEzy7Up5XPqB4rgKkLCAwQDGQ5m6oOPrNoo7QmbdwhckA7pLdAFHzZj4JuTMi3Tbt0CJ_HHIbEObIPN0youfQDiHRhVKqTthF0J1fZiJQWW1R3r7_DuYrNZJpGJDKx7wNDrmvJbpDI6C2td45hdUnyPqmufVayVM--9QPtZhrg&X-OWA-CANARY=6K144bfTZEq3nLClkUbKvVAMNI0DltgY5NSJiYnMt13XvdUWkP6yiI94rq-42cWbAqAbu44-jLY.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                   Christmas Vinyl Decor 
-                                </h5>$15.00
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCJAAABEgAQAG7r91UwlxVJpc%2BZD%2FsHUNY%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMxOTI3LCJleHAiOjE2MDY4MzI1MjcsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.g9Dn0pXfI2YG-VBTrZSKp2UMFSVnzOHCBs6hG8vCmgUsFkwZ0jPc7z08ds0nK-3_kvakdioOo_jo6yZNx8w8tMoypALT_u4BEeJ0JbO77BeuOSJ2upjpDWaC_lJC3FqJvctGx_rUPpsA6kgdHxU99dY_qTKY_4K6wrli2xZ88Fe4IEzy7Up5XPqB4rgKkLCAwQDGQ5m6oOPrNoo7QmbdwhckA7pLdAFHzZj4JuTMi3Tbt0CJ_HHIbEObIPN0youfQDiHRhVKqTthF0J1fZiJQWW1R3r7_DuYrNZJpGJDKx7wNDrmvJbpDI6C2td45hdUnyPqmufVayVM--9QPtZhrg&X-OWA-CANARY=6K144bfTZEq3nLClkUbKvVAMNI0DltgY5NSJiYnMt13XvdUWkP6yiI94rq-42cWbAqAbu44-jLY.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                   Easter Baskets
-                                </h5>$15.00
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCJAAABEgAQAF4Ga%2BhHcrZJnc5jjrXlHnA%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMxOTI3LCJleHAiOjE2MDY4MzI1MjcsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.g9Dn0pXfI2YG-VBTrZSKp2UMFSVnzOHCBs6hG8vCmgUsFkwZ0jPc7z08ds0nK-3_kvakdioOo_jo6yZNx8w8tMoypALT_u4BEeJ0JbO77BeuOSJ2upjpDWaC_lJC3FqJvctGx_rUPpsA6kgdHxU99dY_qTKY_4K6wrli2xZ88Fe4IEzy7Up5XPqB4rgKkLCAwQDGQ5m6oOPrNoo7QmbdwhckA7pLdAFHzZj4JuTMi3Tbt0CJ_HHIbEObIPN0youfQDiHRhVKqTthF0J1fZiJQWW1R3r7_DuYrNZJpGJDKx7wNDrmvJbpDI6C2td45hdUnyPqmufVayVM--9QPtZhrg&X-OWA-CANARY=6K144bfTZEq3nLClkUbKvVAMNI0DltgY5NSJiYnMt13XvdUWkP6yiI94rq-42cWbAqAbu44-jLY.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                   Easter Baskets
-                                </h5>$15.00
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCJAAABEgAQAFM8aHgSuzlBqZATmuhSF8Y%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMxOTI3LCJleHAiOjE2MDY4MzI1MjcsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.g9Dn0pXfI2YG-VBTrZSKp2UMFSVnzOHCBs6hG8vCmgUsFkwZ0jPc7z08ds0nK-3_kvakdioOo_jo6yZNx8w8tMoypALT_u4BEeJ0JbO77BeuOSJ2upjpDWaC_lJC3FqJvctGx_rUPpsA6kgdHxU99dY_qTKY_4K6wrli2xZ88Fe4IEzy7Up5XPqB4rgKkLCAwQDGQ5m6oOPrNoo7QmbdwhckA7pLdAFHzZj4JuTMi3Tbt0CJ_HHIbEObIPN0youfQDiHRhVKqTthF0J1fZiJQWW1R3r7_DuYrNZJpGJDKx7wNDrmvJbpDI6C2td45hdUnyPqmufVayVM--9QPtZhrg&X-OWA-CANARY=6K144bfTZEq3nLClkUbKvVAMNI0DltgY5NSJiYnMt13XvdUWkP6yiI94rq-42cWbAqAbu44-jLY.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                   Punisher BTB Vinyl
-                                </h5>Price depends on size (small=$6.00 medium=$10.00 large=$15.00)
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <img class="mr-3" alt="Bootstrap Media Preview" src="https://attachments.office.net/owa/Alyssa.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGY2YzY4MDBlLTc0MWUtNGZjNC1iOTQzLWRhNzU1MzExMjg0YwBGAAAAAAAYz3viz1odTYXe%2FNKn%2Ftw4BwAR%2FdnFxYQZSasrpOxQBwNYAAAAAAEMAAAR%2FdnFxYQZSasrpOxQBwNYAAMLDzCLAAABEgAQALuhtNAm1JVKsVi%2FkrfsUJ0%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMjNlZjdhODMyNDk3NDQ4NWJiZTk4ZGI0YWFkNjNkYmMiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1Mzc2NTkzMjI5MDc0ODEyOFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImQ2ZjY0MGQ2LTM3N2ItNDA5Mi1iOTY4LTI2MGEwZTE4M2QzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTEyNjc2MzUxXCJ9IiwibmJmIjoxNjA2ODMzMDc1LCJleHAiOjE2MDY4MzM2NzUsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJoYXBwIjoib3dhIn0.ilyETi91vPs8X-rRTzbWYrrA1uYSfmOaAAXuTZ62y5gnxMV4JMDwK9GTHyAcDx8lQfKL9bKkRDicWg06qS2AOnKWRTxJwCsd87USnf-sDqeYFcJ4HXnoLMx2IK7YnT4BhDV_YW1PMfL3enFUd9_q8HkdPl0jieBdVld--Te7TTMxhqOvvYXuT94znwlf_jkKMp6uHmDDDxYfv6H1SOzXshMbOxWHOSlYRSuA-YmVycmg0Q0xp6rKZxQYrQfbmnLL_HOjZ6y9PcPMP0dyOgTxFNo6DM7UXWxWVd4LjTliwGYQqIj0V-WD3YPLBBTPdla4Xpq7nOmRI3xek7BumDzZZQ&X-OWA-CANARY=N8mZgTw-L0ucIBQGeJRuQaA-8MsFltgYq8WA5qcmKR4WFH3YAbiqZ9qzG2GwhyNrIm6JjQAWPbE.&owa=outlook.office.com&scriptVer=20201123001.13&animation=true" />
-                            <div class="media-body">
-                                <h5 class="mt-0">
-                                   Weatherproof Mailbox Label
-                                </h5>$15.00
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="col-md-2">
-                        <blockquote class="blockquote">
-                            <p class="mb-0">
-                               "Small businesses provide the feeling that a real person is behind it all, someone who cares more about giving us a quality product or service, over just taking our hard earned dollars."
-                            </p>
-                            <footer class="blockquote-footer">
-                                Annie Bukhman
-                            </footer>
-                        </blockquote>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                 <a class="nav-link" href="apparel.html">Apparel</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="cups.html">Cups</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="trendingnow.html">Trending Now</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="other.html">Other Items</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
+                <hr>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h2 class="order-placement">
+                                Placing an order?
+                            </h2>
+                            <p class="order-placement">
+                                Click the button below to take you to the form on the home page. Fill it out and we'll
+                                get right with you!
+                            </p>
+                            <p class="order-placement">
+                                <a class="btn" href="index.html">Order</a>
+                            </p>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="media">
+                                <img class="mr-3" alt="Bootstrap Media Preview" src="./img/blanket1.jpg">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        University of Kentucky blanket
+                                    </h5>$25.00
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <img class="mr-3" alt="Bootstrap Media Preview" src="./img/blanket2.jpg">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        Louisiana State University blanket
+                                    </h5>$25.00
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="other">
+                                <div class="media">
+                                    <img class="mr-3" alt="Bootstrap Media Preview" src="./img/coaster.jpg">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">
+                                            Car Coasters
+                                        </h5>$6.00
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <img class="mr-3" alt="Bootstrap Media Preview" src="./img/luggagetag.jpg">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        Luggage Tag
+                                    </h5>$6.00
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <img class="mr-3" alt="Bootstrap Media Preview" src="./img/car.jpg">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        Car Monogram
+                                    </h5>Price differs by size (small=$6.00 medium=$10.00 large=$15.00)
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <img class="mr-3" alt="Bootstrap Media Preview" src="./img/earring.jpg">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        Monogramed earrings
+                                    </h5>$5.00
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <img class="mr-3" alt="Bootstrap Media Preview" src="./img/hangers.jpg">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        Bride/Bridesmaides Hangers
+                                    </h5>$10.00 per hanger
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <img class="mr-3" alt="Bootstrap Media Preview" src="./img/monogram.jpg">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        Simple Monogram
+                                    </h5>Price depends on size (small=$6.00 medium=$10.00 large=$15.00)
+                                </div>
+                            </div>
+                            <hr>
+                            <nav>
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="other.html">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="other2.html">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="other2.html">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-2">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    "Small businesses provide the feeling that a real person is behind it all, someone
+                                    who cares more about giving us a quality product or service, over just taking our
+                                    hard earned dollars."
+                                </p>
+                                <footer class="blockquote-footer">
+                                    Annie Bukhman
+                                </footer>
+                            </blockquote>
+                        </div>
                     </div>
-                </nav>
-            </div>
-        </div>
-    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home <span
+                                                    class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="apparel.html">Apparel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cups.html">Cups</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="trendingnow.html">Trending Now</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="other.html">Other Items</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
 </body>
+
 </html>
