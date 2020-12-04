@@ -44,7 +44,7 @@
 
 .btn-primary:hover,
 .btn-primary:active {
-    background-color: CadetBlue;
+    background-color:rgb(243, 231, 231);
     background: powderblue;
 }
 
@@ -71,7 +71,7 @@
 }
 
 body {
-    background-color: ivory
+    background-color: whitesmoke;
 }
 
 .navbar-expand-lg {
@@ -82,7 +82,11 @@ body {
     background-color:rgb(243, 231, 231);
     border: 2px solid rgb(243, 231, 231);
     margin-top: 30px;
-    transform: translateX(-50%) left:50%;
+    transform: translateX(-50%) left 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
 }
 
 .btn a {
@@ -103,11 +107,11 @@ body {
 }
 
 .dropdown-menu a {
-    color: black
+    color: black;
 }
 
 .col-md-2 {
-    background-color: #c47451a4;
+    background-color:  rosybrown;
 }
 
 .card-title {
@@ -116,13 +120,6 @@ body {
 
 .card-block {
     Height: 400px;
-}
-
-.btn {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 25%;
 }
 
 .bottom-center {
@@ -189,11 +186,11 @@ form {
 }
 
 .col-md-5 {
-    background-color: #c47451a4;
+    background-color: #7c6767a4;
 }
 
 .col-md-7 .how-to {
-    background-color: #c474516b;
+    background-color:rosybrown;
 }
 
 .grid-container {
@@ -226,7 +223,7 @@ form {
 }
 
 .blockquote {
-    background-color: #ffbb99;
+    background-color: rgb(224, 195, 195);
     text-align: center;
 }
 
@@ -247,7 +244,9 @@ form {
 }
 
 .head {
-    background-color: rgb(194, 192, 190);
+    background-color:rgba(196, 161, 161, 0.527);
+    color:rgb(71, 37, 12);
+    text-align:center;
 }
 
 .other img {
@@ -257,10 +256,13 @@ form {
 .other {
     height: 4in;
 }
-
-.whitecolumn .col-md-2 {
-    background-color: white;
-}
 .page-header{
-    background-color: rgb(194, 192, 190)
+    background-color: rgba(196, 161, 161, 0.527);
+    color:rgb(71, 37, 12);
+}
+.homeheader h1{
+    background-color:whitesmoke;
+}
+.col-md-1{
+    background-color:  rosybrown;
 }
