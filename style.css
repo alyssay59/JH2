@@ -44,7 +44,7 @@
 
 .btn-primary:hover,
 .btn-primary:active {
-    background-color:rgb(243, 231, 231);
+    background-color: rgb(243, 231, 231);
     background: powderblue;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .btn {
-    background-color:rgb(243, 231, 231);
+    background-color: rgb(243, 231, 231);
     border: 2px solid rgb(243, 231, 231);
     margin-top: 30px;
     transform: translateX(-50%) left 50%;
@@ -111,7 +111,7 @@ body {
 }
 
 .col-md-2 {
-    background-color:  rosybrown;
+    background-color: rosybrown;
 }
 
 .card-title {
@@ -190,7 +190,7 @@ form {
 }
 
 .col-md-7 .how-to {
-    background-color:rosybrown;
+    background-color: rosybrown;
 }
 
 .grid-container {
@@ -244,9 +244,9 @@ form {
 }
 
 .head {
-    background-color:rgba(196, 161, 161, 0.527);
-    color:rgb(71, 37, 12);
-    text-align:center;
+    background-color: rgba(196, 161, 161, 0.527);
+    color: rgb(71, 37, 12);
+    text-align: center;
 }
 
 .other img {
@@ -256,16 +256,20 @@ form {
 .other {
     height: 4in;
 }
-.page-header{
+
+.page-header {
     background-color: rgba(196, 161, 161, 0.527);
-    color:rgb(71, 37, 12);
+    color: rgb(71, 37, 12);
 }
-.homeheader h1{
-    background-color:whitesmoke;
+
+.homeheader h1 {
+    background-color: whitesmoke;
 }
-.col-md-1{
-    background-color:  rosybrown;
+
+.col-md-1 {
+    background-color: rosybrown;
 }
-.about img{
-    width:350px;
+
+.about img {
+    width: 350px;
 }
